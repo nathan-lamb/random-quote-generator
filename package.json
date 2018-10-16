@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-redux": "^5.0.7",
     "react-scripts": "2.0.5",
-    "redux": "^4.0.1"
+    "redux": "^4.0.1",
+    "jest": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,9 +29,11 @@
   "devDependencies": {
     "eslint-config-react-app": "^3.0.4",
     "eslint-config-standard": "^12.0.0",
+    "eslint-config-standard-react": "^7.0.2",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-standard": "^4.0.0"
   }
 }
